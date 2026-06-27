@@ -74,23 +74,23 @@ const Hero = () => {
               Open to AI / ML Opportunities
             </span>
           </motion.div>
-          
+
           {/* Name */}
           <motion.h1
-            variants={itemVariants}
-            className="font-display font-bold text-5xl md:text-6xl lg:text-7xl text-white leading-tight mb-4"
-          >
-            Hi, I'm Sanjay Medisetti
-            <span
-  className="bg-clip-text text-transparent"
-  style={{
-    backgroundImage:
-      'linear-gradient(135deg, #818CF8 0%, #06B6D4 50%, #818CF8 100%)',
-  }}
+  variants={itemVariants}
+  className="font-display font-bold text-5xl md:text-6xl lg:text-7xl text-white leading-tight mb-4"
 >
-  Sanjay Medisetti
-</span>
-          </motion.h1>
+  Hi, I'm{' '}
+  <span
+    className="bg-clip-text text-transparent"
+    style={{
+      backgroundImage:
+        'linear-gradient(135deg, #818CF8 0%, #06B6D4 50%, #818CF8 100%)',
+    }}
+  >
+    Sanjay Medisetti
+  </span>
+</motion.h1>
 
           {/* Typing role */}
           <motion.div

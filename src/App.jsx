@@ -14,10 +14,8 @@ import ScrollToTop from './components/ScrollToTop'
 function App() {
   return (
     <div className="min-h-screen bg-navy-900 text-white">
-      {/* Navigation */}
       <Navbar />
 
-      {/* Main content */}
       <main>
         <Hero />
         <About />
@@ -29,14 +27,10 @@ function App() {
         <Contact />
       </main>
 
-      {/* Footer */}
       <Footer />
-
-      {/* Scroll-to-top FAB */}
       <ScrollToTop />
     </div>
   )
 }
-     <h1>Hello Sanjay</h1>
+
 export default App
-                
