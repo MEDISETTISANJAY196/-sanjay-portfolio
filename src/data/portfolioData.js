@@ -10,7 +10,6 @@ export const personalInfo = {
     'AIML Engineer',
     'Generative AI Developer',
     'ML Engineer',
-    'AI Engineer | AIML Engineer | Generative AI Developer',
   ],
   tagline: 'Building Intelligent AI Solutions with Machine Learning, Generative AI, and Full-Stack Development.',
   summary: `I am a Final-Year B.Tech CSE (AIML) student passionate about Artificial Intelligence, Machine Learning, 
