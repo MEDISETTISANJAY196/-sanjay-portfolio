@@ -74,16 +74,7 @@ const Hero = () => {
               Open to AI / ML Opportunities
             </span>
           </motion.div>
-           <motion.div
-  variants={itemVariants}
-  className="flex justify-center mb-8"
->
-  <img
-    src={sanjayPhoto}
-    alt="Sanjay Medisetti"
-    className="w-40 h-40 rounded-full object-cover border-4 border-cyan-400 shadow-2xl shadow-cyan-500/20"
-  />
-</motion.div>
+          
           {/* Name */}
           <motion.h1
             variants={itemVariants}
