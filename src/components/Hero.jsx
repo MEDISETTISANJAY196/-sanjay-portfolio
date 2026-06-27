@@ -91,7 +91,7 @@ const Hero = () => {
   >
     Sanjay Medisetti
   </span>
-</motion.h1>s
+</motion.h1>
             
 
           {/* Typing role */}
