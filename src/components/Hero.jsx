@@ -31,9 +31,9 @@ const Hero = () => {
 
   return (
     <section
-      id="home"
-      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden"
-    >
+  id="home"
+  className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-24"
+>
       {/* Background layers */}
       <div className="absolute inset-0 bg-navy-950" />
       <div
@@ -77,20 +77,21 @@ const Hero = () => {
 
           {/* Name */}
           <motion.h1
-            variants={itemVariants}
-            className="font-display font-bold text-5xl md:text-6xl lg:text-7xl text-white leading-tight mb-4"
-      >
-            Hi, I'm{' '}
-            <span
-            className="bg-clip-text text-transparent"
-            style={{
-              backgroundImage:
-                'linear-gradient(135deg, #818CF8 0%, #06B6D4 50%, #818CF8 100%)',
-          }}
-        >
-          Sanjay Medisetti
-        </span>
-      </motion.h1>
+  variants={itemVariants}
+  className="font-display font-bold text-5xl md:text-6xl lg:text-7xl text-white leading-tight mb-4"
+>
+  Hi, I'm{' '}
+  <span
+    className="bg-clip-text text-transparent"
+    style={{
+      backgroundImage:
+        'linear-gradient(135deg, #818CF8 0%, #06B6D4 50%, #818CF8 100%)',
+    }}
+  >
+    Sanjay Medisetti
+  </span>
+</motion.h1>
+            
 
           {/* Typing role */}
           <motion.div
