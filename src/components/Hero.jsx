@@ -61,7 +61,7 @@ const Hero = () => {
       <NeuralCanvas />
 
       {/* Content */}
-      <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">git add .
+      <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">
         <motion.div
           variants={containerVariants}
           initial="hidden"
