@@ -61,7 +61,7 @@ const Hero = () => {
       <NeuralCanvas />
 
       {/* Content */}
-      <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
+      <div className="relative z-10 max-w-6xl mx-auto px-6 text-center">git add .
         <motion.div
           variants={containerVariants}
           initial="hidden"
@@ -78,9 +78,10 @@ const Hero = () => {
           {/* Name */}
           <motion.h1
   variants={itemVariants}
-  className="font-display font-bold text-4xl md:text-6xl lg:text-7xl text-white leading-tight mb-4"
+  className="font-display font-bold text-4xl md:text-6xl lg:text-7xl text-white leading-none mb-4"
 >
-  Hi, I'm{" "}
+  Hi, I'm
+  <br />
   <span
     className="bg-clip-text text-transparent"
     style={{
@@ -90,7 +91,7 @@ const Hero = () => {
   >
     Sanjay Medisetti
   </span>
-</motion.h1>
+</motion.h1>s
             
 
           {/* Typing role */}
